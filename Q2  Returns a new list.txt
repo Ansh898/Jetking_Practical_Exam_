@@ -1,0 +1,15 @@
+2) Write a Python Program that takes a list and returns a new list
+with unique elements of the first list.
+
+
+Python Program for Returns to new list is as follows
+
+def unique_list(mylist):
+    new_list = []
+    for numbers in mylist:
+        if numbers not in new_list:
+            new_list.append(numbers)
+    return new_list
+
+print(unique_list([1 ,1 ,1 ,2 ,2 ,2 ,2 ,3 ,3,4 , 5, 5,]))
+

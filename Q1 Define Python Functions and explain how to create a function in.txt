@@ -1,0 +1,20 @@
+1) Define Python Functions and explain how to create a function in
+Python Programming with detailed steps
+
+
+Python Functions are the functions in which A function is a block of code which only runs when it is called You can pass Data as parameters
+into a function 
+
+To create a Function First u have to define function and then print the defined function 
+
+def my_function():
+
+For example :-
+
+def my_function():
+    print("Hello from a body function that are typing this right now ")
+
+my_function()
+
+
+
